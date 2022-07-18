@@ -1,0 +1,12 @@
+#!/bin/python
+
+def your_func_name(m):
+  
+           if m % 2 == 0:
+              print "Weird"
+           elif m % 2 != 0 && 2 <= m <= 5:
+              print "Not Weird"
+           elif m % 2 != 0 && 6 <= m <= 2:
+              print "Weird"
+           else:
+              print "Not Weird"
